@@ -1,0 +1,14 @@
+{
+  "name": "nats-event-ex",
+  "version": "1.0.0",
+  "description": "Extends nats event with enforced protocol.",
+  "main": "index.js",
+  "author": "zhaoyao91 <zhaoyao91@163.com>",
+  "repository": "http://github.com/zhaoyao91/method-event-ex",
+  "license": "MIT",
+  "dependencies": {
+    "nats-event": "^2.0.0",
+    "simple-json-logger": "^1.2.0",
+    "uuid": "^3.1.0"
+  }
+}
