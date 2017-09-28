@@ -37,7 +37,7 @@ function buildNatsEventEx (...args) {
         await handler(input.data, input, subject)
       }
       catch (err) {
-        logger.error(err, 'internal-event-error', {subject, input})
+        logger.error(err, 'internal event error', {subject, input})
       }
     }
     originalListen(name, wrapperHandler)
